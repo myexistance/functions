@@ -59,5 +59,17 @@ document.write("the multiply of a and b is " + c+ "<br>");
 
 
 
+// multipication table
+
+function mult_table(m,n){
+	for (i=1; i<=n; i++){
+		document.write(m + "x" + i + "=" + (m*i) + "<br>");
+	}
+}
+var x=parseInt(prompt("Which table do you want?"));
+var y=parseInt(prompt("Do you want the table upto...?"));
+
+mult_table(x,y);
+
 
 
